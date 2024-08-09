@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "DuckSeesAll",
+    "description": "The duck, let's you see all your passwords.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "./src/serviceworker/background.js"
+    },
+    "action": {
+      "default_popup": "./src/popup.html",
+      "default_icon": {
+        "16": "./assets/icon16.png"
+      }
+    }
+  }
+  

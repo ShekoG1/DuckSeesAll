@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  background-color: rgb(127, 193, 255);
+  padding: 10px;
+  margin: 0;
+}
+#root{
+  padding: 10px;
+}
+button {
+  background-color: #FFA500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #FF7F00;
+}
