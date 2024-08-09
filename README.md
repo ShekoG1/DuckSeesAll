@@ -1,35 +1,29 @@
-### README.md
+# DuckSeesAll
 
-
-# DuckTabs
-
-Efficiently manage your tab groups like a pro with DuckTabs! Save, switch, and restore groups of tabs effortlessly to streamline your browsing experience.
+**DuckSeesAll** is a handy Chrome extension that helps you reveal and hide passwords on any webpage. With a simple button click, you can toggle the visibility of password fields, making it easier to manage your passwords while browsing.
 
 ## Features
 
-- Save a group of open tabs.
-- Restore a saved group of tabs.
-- Remove groups at will.
-- Switch between different groups of tabs.
-- Export and import tab groups.
-- Excludes pinned tabs from being saved or closed.
+- **View Passwords**: A "View Passwords" button to quickly locate all password fields on the page.
+- **Toggle Visibility**: Append a button next to each password field to toggle its visibility between text and password.
+- **Simple and Efficient**: Lightweight and easy to use, with no unnecessary permissions required.
 
 ## Installation for Developers
 
-Follow these steps to install DuckTabs for development purposes:
+Follow these steps to install DuckSeesAll for development purposes:
 
 1. **Clone the Repository**
 
    Clone this repository to your local machine using:
    ```bash
-   git clone https://github.com/yourusername/ducktabs.git
+   git clone https://github.com/yourusername/duckseesall.git
    ```
 
 2. **Navigate to the Directory**
 
    Change to the extension's directory:
    ```bash
-   cd ducktabs
+   cd duckseesall
    ```
 
 3. **Open Chrome Extensions Page**
@@ -46,29 +40,19 @@ Follow these steps to install DuckTabs for development purposes:
 
 6. **Reload the Extension**
 
-   If you make changes to the code, you can reload the extension by clicking the "Reload" button (circular arrow icon) under the DuckTabs extension on the `chrome://extensions/` page.
+   If you make changes to the code, you can reload the extension by clicking the "Reload" button (circular arrow icon) under the DuckSeesAll extension on the `chrome://extensions/` page.
 
 ## Usage
 
-1. **Save a Group of Tabs**
+1. **View Passwords**
 
-   - Click on the DuckTabs icon in the Chrome toolbar to open the popup.
-   - Enter a name for the group in the input field and click the "Save Group" button.
+   - Click on the DuckSeesAll icon in the Chrome toolbar to open the popup.
+   - Click the "View Passwords" button to locate all password fields on the current page.
 
-2. **Open a Saved Group of Tabs**
+2. **Toggle Password Visibility**
 
-   - Click on the DuckTabs icon in the Chrome toolbar to open the popup.
-   - Click the "Open" button next to the desired group name.
-
-3. **Export Tab Groups**
-
-   - Click on the DuckTabs icon in the Chrome toolbar to open the popup.
-   - Click the "Export Groups" button to download a JSON file of your saved tab groups.
-
-4. **Import Tab Groups**
-
-   - Click on the DuckTabs icon in the Chrome toolbar to open the popup.
-   - Click the "Import Groups" button and select the JSON file containing your saved tab groups.
+   - After clicking "View Passwords," a button will appear next to each password field.
+   - Click this button to toggle the visibility of the password between text and password.
 
 ## Contribution
 
@@ -77,7 +61,6 @@ If you would like to contribute to this project, please fork the repository and 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
 ### Installation Steps Summary
 
@@ -88,9 +71,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Load the unpacked extension.
 - Reload the extension after making changes.
 
-```
-
-**Thankyou for viewing. Have a lovely day ahead!**
+**Thank you for viewing. Have a lovely day ahead!**
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.theshekharmaharaj.com)
